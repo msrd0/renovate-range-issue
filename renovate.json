@@ -1,0 +1,21 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:base"
+	],
+
+	"packageRules": [
+		{
+			"matchLanguages": ["rs", "rust", "cargo"],
+			"matchCurrentVersion": ">=1.0.0",
+			"matchUpdateTypes": ["patch", "minor"],
+			"enabled": false
+		},
+		{
+			"matchLanguages": ["rs", "rust", "cargo"],
+			"matchCurrentVersion": ">=0.1.0",
+			"matchUpdateTypes": ["patch"],
+			"enabled": false
+		}
+	]
+}

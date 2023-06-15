@@ -1,0 +1,9 @@
+[package]
+name = "renovate-range-issue"
+version = "0.0.0"
+publish = false
+edition = "2021"
+license = "0BSD"
+
+[dependencies]
+unindent = ">=0.1, <0.3"
