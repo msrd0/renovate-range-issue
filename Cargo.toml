@@ -6,4 +6,4 @@ edition = "2021"
 license = "0BSD"
 
 [dependencies]
-unindent = ">=0.1, <0.3"
+unindent = ">=0.2.1, <0.3"
